@@ -2,7 +2,7 @@ import json
 
 KEY_SPACE = 2**16 - 1
 
-# Open user-specific input file
+# Open config file containing public signature values
 with open('input.json') as f:
     data = json.load(f)
 
