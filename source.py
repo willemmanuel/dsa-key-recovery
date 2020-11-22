@@ -14,9 +14,6 @@ with open('input.json') as f:
     y = int(data['y'])
     r = int(data['r'])
 
-    # Get message
-    m = data['m']
-
     # Convert SHA-1 hash to long
     h = int(data['h'], 16)
 
